@@ -130,10 +130,10 @@ require_once("functions/fuser.php");
                                         <div class="form-group col-md-3">
                                             <label>Department :</label>
                                             <select class="select2 form-control custom-select" name="usrFac" style="width: 100%; height:36px;">
-                                                <option value="FST">COLLEGE OF MANAGEMENT AND ENTREPRENEURSHIP</option>
-                                                <option value="FPQS">COLLEGE OF ENGINEERING</option>
-                                                <option value="FKP">COLLEGE OF EDUCATION</option>
-                                                <option value="FSU">COLLEGE OF TECHNOLOGY</option>
+                                                <option value="CME">COLLEGE OF MANAGEMENT AND ENTREPRENEURSHIP</option>
+                                                <option value="COE">COLLEGE OF ENGINEERING</option>
+                                                <option value="COED">COLLEGE OF EDUCATION</option>
+                                                <option value="COT">COLLEGE OF TECHNOLOGY</option>
                                             </select>
                                         </div>
                                         <div class="form-group col-md-3">
