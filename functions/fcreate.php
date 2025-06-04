@@ -15,7 +15,7 @@ if (isset($_POST['btnCreate'])) {
     $iadm = mysqli_query($conn, "INSERT INTO admins (admName, admPwd, admEmail, admPhone, admDepartment) VALUES ('$admName', '$hashed', '$admEmail', '$admPhone', 'Creator')");
 
     if ($iadm) {
-        echo "<script>alert('Administrator Added')</script>";
+        //echo "<script>alert('Administrator Added')</script>";
     } else {
         // echo mysqli_error($conn); //this is used to check error
         echo "<script>alert('Add Administrator Failed. Please Try Again')</script>";

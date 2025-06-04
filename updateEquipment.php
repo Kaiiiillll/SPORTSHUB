@@ -62,23 +62,23 @@ if(isset($_GET["id"])){
                         <form method="post">
                             <div class="form-group">
                                 <div class="form-group">
-                                    <label>Tool Name :</label>
+                                    <label>Equipment Name :</label>
                                     <input type="text" name="tlName" value="<?= $fetchEquipment["tlName"] ?>" class="form-control" placeholder="Equipment Name" />
                                 </div>
                                 <div class="form-group">
-                                    <label>Tool Variation :</label>
+                                    <label>Variation :</label>
                                     <input type="text" name="tlVariation" value="<?= $fetchEquipment["tlVariation"] ?>" class="form-control" placeholder="eg. Colour / Size" />
                                 </div>
                                 <div class="form-group">
-                                    <label>Tool Quantity :</label>
+                                    <label>Quantity :</label>
                                     <input type="number" name="tlQuantity" value="<?= $fetchEquipment["tlQuantity"] ?>" class="form-control" placeholder="Total Quantity of Equipment" />
                                 </div>
                                 <div class="form-group">
-                                    <label>Tool Available :</label>
+                                    <label>Equipment Available :</label>
                                     <input type="number" name="tlAvailable" value="<?= $fetchEquipment["tlAvailable"] ?>" class="form-control" placeholder="Total Quantity of Equipment" />
                                 </div>
                                 <div class="form-group">
-                                    <label>Tool Store :</label>
+                                    <label>Equipment Location :</label>
                                     <input type="text" name="tlStore" value="<?= $fetchEquipment["tlStore"] ?>" class="form-control" placeholder="Store Location" />
                                 </div>
                                 <div class="form-group">
