@@ -131,7 +131,9 @@ require_once("functions/fadmin.php");
                                             <label>Phone :</label>
                                             <input type="tel" name="admPhone" class="form-control" placeholder="+60123456789" required />
                                         </div>
-                                        <div class="form-group">
+                                    
+                                        <!--
+                                          <div class="form-group">
                                             <label>Department :</label>
 
                                             <select name="admDepartment" class="select2 form-control custom-select" style="width: 100%; height:36px;">
@@ -146,6 +148,7 @@ require_once("functions/fadmin.php");
                                                 ?>
                                             </select>
                                         </div>
+                                            -->
 
                                         <button type="submit" class="btn btn-large btn-primary" name="btnAddAdmin">Create</button>
                                     </div>
