@@ -23,7 +23,7 @@ if (isset($_POST["btnAddTool"])) {
 			$message = "tool $tlName with variation $tlVariation added";
 			$ilog = mysqli_query($conn, "INSERT INTO logs (logDate, logTime, logAction, logUser) VALUES ('$date', '$time', '$message', '$userID')");
 
-			echo "<script>alert('$message')</script>";
+			//echo "<script>alert('$message')</script>";
 		} else {
 			//log
 			$date = date("Y-m-d");
