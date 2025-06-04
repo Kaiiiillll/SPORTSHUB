@@ -31,7 +31,7 @@ require_once("functions/fcreate.php");
             <div class="auth-box bg-dark border-top border-secondary">
                 <div>
                     <div class="text-center p-t-20 p-b-20">
-                        <span class="db"><img src="assets/images/logo1.png" alt="logo" /></span>
+                        <span class="db"><img src="assets/images/logo3.png" alt="logo" /></span>
                     </div>
                     <!-- Form -->
                     <form class="form-horizontal m-t-20" method="post">
