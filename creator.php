@@ -80,6 +80,12 @@ require_once("functions/fcreate.php");
                             </div>
                         </div>
                     </form>
+                    <!-- GotoLogin Button-->                
+<div class="p-t-10 text-center">
+    <a href="login.php" class="btn btn-block btn-lg btn-secondary">Go to Login Page</a>
+</div>
+
+
                 </div>
             </div>
         </div>

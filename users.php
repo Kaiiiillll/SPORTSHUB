@@ -132,7 +132,7 @@ require_once("functions/fuser.php");
                                             <select class="select2 form-control custom-select" name="usrFac" style="width: 100%; height:36px;">
                                                 <option value="CME">COLLEGE OF MANAGEMENT AND ENTREPRENEURSHIP</option>
                                                 <option value="COE">COLLEGE OF ENGINEERING</option>
-                                                <option value="COED">COLLEGE OF EDUCATION</option>
+                                                <option value="CEAS">COLLEGE OF EDUCATION</option>
                                                 <option value="COT">COLLEGE OF TECHNOLOGY</option>
                                             </select>
                                         </div>
